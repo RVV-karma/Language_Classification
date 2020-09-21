@@ -1,5 +1,5 @@
 # Language_Classification
-A NLP project to classify text on the basis of it's language with accuracy of 100% (on test set and new examples) and confidence higher than 99%.
+A NLP project to classify text on the basis of it's language with accuracy of **100%** (on test set and new examples) and confidence higher than **99%**.
 
 ## Aim
 
@@ -26,13 +26,13 @@ The optimizer used is Adam with default settings. Batch size was taken as 128.
 The predictions of the model are as follows:  
 
 The sentence ' ['TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks.'] '
-is in ' English ' language with  99.84663724899292 % confidence.
+is in ' **English** ' language with  **99.84663724899292 % confidence**.
 
 The sentence ' ['TensorFlow è una libreria software gratuita e open source per il flusso di dati e la programmazione differenziabili in una vasta gamma di attività.'] '
-is in ' Italian ' language with  99.95958209037781 % confidence.
+is in ' **Italian** ' language with  **99.95958209037781 % confidence**.
 
 The sentence ' ['TensorFlow es una biblioteca de software gratuita y de código abierto para el flujo de datos y la programación diferenciable en una variedad de tareas.'] '
-is in ' Spanish ' language with  99.99784231185913 % confidence.
+is in ' **Spanish** ' language with  **99.99784231185913 % confidence**.
 
 The sentence ' ['TensorFlow est une bibliothèque logicielle gratuite et open-source pour le flux de données et la programmation différenciable sur une gamme de tâches.'] '
-is in ' French ' language with  99.9789297580719 % confidence.
+is in ' **French** ' language with  **99.9789297580719 % confidence**.
